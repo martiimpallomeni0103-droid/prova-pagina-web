@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif; 
+    font-size: 20px;
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+}
+.container-immagini {
+    display: flex;
+    width: 100%;
+    height: 300px; 
+}
+
+.container-immagini img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: 50% 15%; 
+    display: block;
+}
+
+.main-title-bar {
+    background-color: black;
+    color: red;            
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Bangers', cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+.content-wrapper {
+    max-width: 900px;      
+    margin: auto;        
+    padding: 40px 20px;
+    align-items: center;
+}
+
+
+.red-subtitle {
+    color: #e63946;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Bangers', cursive;
+}
+
+h3 {
+    color: #e63946;        
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.giant-title {
+    color: #ffcc00;        
+    color: red; 
+    font-family: 'Bangers', cursive;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+
+.two-columns {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.text-side {
+    flex: 1.5;
+    text-align: center;
+    position: relative; 
+    z-index: 10;        
+}
+
+.image-side {
+    flex: 1;
+    position: relative; 
+    min-height: 500px;  
+}
+
+.image-side img {
+    width: 100%;
+    height: auto;
+}
+
+.img-dylan-dog {
+    width: 50% !important;
+    height: auto;
+    position: relative; 
+    z-index: 2; 
+    left: -160px;
+}
+
+.img-shibuya {
+    position: absolute;
+    top: 85px;     
+    left: 0;    
+    width: 100% !important; 
+    height: auto;
+    z-index: 1;    
+    opacity: 1;  
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+.image-footer {
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: -150px;
+    margin-bottom: -150px;
+}
